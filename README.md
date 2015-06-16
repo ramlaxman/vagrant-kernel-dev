@@ -31,7 +31,7 @@ VM Setup
 --------
 Clone this `git` respository, enter the directory and start the VM.
 ```
-$ cd fedora-kernel-dev
+$ cd vagrant-kernel-dev
 $ vagrant up --provider=libvirt
 ```
 
