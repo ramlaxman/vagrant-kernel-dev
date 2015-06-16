@@ -38,12 +38,12 @@ $ vagrant up --provider=libvirt
 Vagrant will setup and do provisioning on your VM according to the Vagrantfile specified. You can then simply ssh to your VM using,
 
 ```
-vagrant ssh
+$ vagrant ssh
 ```
 
 Now you can start kernel development. Just do `Ctrl+D` to log out from the VM. If you want to erase the VM, just do
 
 ```
-vagrant destroy
+$ vagrant destroy
 ```
 
