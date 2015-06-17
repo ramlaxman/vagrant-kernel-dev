@@ -7,8 +7,8 @@ Install dependencies
 Install vagrant using either the official RPM or,
 
 ```
-$ sudo dnf install vagrant
-$ sudo dnf install libxslt-devel libxml2-devel libvirt-devel libguestfs-tools-c
+$ sudo dnf install vagrant -y 
+$ sudo dnf install libxslt-devel libxml2-devel libvirt-devel libguestfs-tools-c -y
 $ sudo ln -fs /usr/bin/ld.gold /usr/bin/ld
 ```
 Install `libvirt` plugin for Vagrant,
